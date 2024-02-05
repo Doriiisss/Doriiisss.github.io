@@ -1,21 +1,76 @@
-body{
- background-color: rgb(166, 207, 207) ;   
- margin: 20px;
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #b6dcda; 
+    color: #00695c; 
+    margin: 15pt;
+}
+
+h1 {
+    font-size: 24pt;
+    color: #0b1c19; 
+    margin-bottom: 20pt;
+}
+
+h2 {
+    font-size: 20pt;
+    color: #1b3d87; 
+    margin-bottom: 18pt;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #2d867d; 
+    margin-bottom: 16pt;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    color: #08004d; 
+    margin: 12pt 0;
+}
+
+a:link, a:visited {
+    color: #490d58; 
+}
+
+a:hover {
+    color: #b6644d; 
+    text-decoration: underline; 
+}
+
+a:active {
+    color: #200089; 
+    text-decoration: underline;
 }
 
 
-h1
- {
-    color: rgb(21, 189, 170);
-    font-size: 36px;
- 
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 30px;
+.divTable {
+    display: table;
+    width: 100%; 
 }
 
-h2
- {
-    color: rgb(43, 29, 114);
-    font-size: 25px;
-    margin: 30px;
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableCell, .divTableHead {
+    display: table-cell;
+    padding: 10pt;
+    border: 1px solid #160f45; 
+}
+
+.divTableHeading {
+    background-color: #00796b; 
+    color: rgb(72, 9, 9); 
+}
+
+.divTableBody {
+    display: table-row-group;
 }
