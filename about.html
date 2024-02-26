@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorsa Ayubi Website</title>
+    <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enter Your Name Example</title>
+    </head>
+    <body>
+ 
+
+
+
+<!-- Navigation/ Menu bar -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Menu with Hover Events</title>
+        <style>
+            /* Basic styling */
+            #navMenu {
+                background-color: #1a0d1a;
+                list-style-type: none;
+                margin: 0;  
+                padding: 0;
+                overflow: hidden;
+            }
+    
+            #navMenu li {
+                float: left;
+            }
+    
+            #navMenu li a {
+                display: block;
+                color: rgb(111, 122, 203);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    
+            /* Hover styles */
+            #navMenu li a.hoverEffect {
+                background-color: #111;
+            }
+    
+            /* Submenu styling */
+            .submenu {
+                display: none;
+                position: absolute;
+                background-color: #3f193f;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(175, 130, 130, 0.2);
+                z-index: 1;
+            }
+    
+            .submenu a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+    
+            .submenu a:hover {
+                background-color: #b69696;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <ul id="navMenu">
+        <li><a href="file:///C:/Users/doris/OneDrive/Documents/GitHub/Doriiisss.github.io/index.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">Home</a></li>
+        <li><a href="about.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">About</a></li>
+        <li><a href="contact.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">Contact</a></li>
+        <li onmouseover="showSubmenu()" onmouseout="hideSubmenu()">Social Media
+
+
+            <div class="submenu" id="submenu">
+                <a href="https://www.instagram.com/dorsa_ayubi/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/dorsa-ayubi/" target="_blank">LinkedIn</a>
+            </div>
+            
+        </li>
+    </ul>
+    
+    <script>
+        // JavaScript functions for hover effect
+        function hoverEffect(link) {
+            link.classList.toggle('hoverEffect');
+        }
+    
+        // JavaScript functions to show/hide the submenu
+        function showSubmenu() {
+            document.getElementById('submenu').style.display = 'block';
+        }
+    
+        function hideSubmenu() {
+            document.getElementById('submenu').style.display = 'none';
+        }
+    </script>
+    
+    </body>
+    </html>
+    
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <!-- Ensure you link to the same stylesheet used for your homepage to maintain the format -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+  
+    <!-- About me -->
+    <section>
+        <h1>About Me</h1>
+        <p>
+            Hello! I'm Dorsa Ayubi, a dynamic and dedicated professional based in Toronto, ON. With a background in Business Technology Management from Ted Rogers School of Management, Toronto Metropolitan University, and Industrial Engineering from Kharazmi University in Tehran, Iran,<br><br> I've cultivated a robust set of skills tailored for the modern business landscape. My journey has led me through diverse roles from marketing and data analysis to leading teams and engaging with communities as a tour guide.
+
+            I thrive in collaborative settings, where my strong communication skills and ability to adapt shine brightest. My passion for technology and data analysis is matched by my commitment to excellence in customer service and project management. <br><br>Throughout my career, I've developed a keen eye for detail and a penchant for problem-solving, which have been instrumental in driving project success and achieving managerial satisfaction.
+            
+            Outside of professional pursuits, I volunteer my time and skills to enrich community events, like the Tirgan Festival, where I ensure seamless production and logistics. My technical proficiency spans across tools like Photoshop, PowerBI, SQL, and programming languages like Python, R, alongside expertise in Microsoft Suite and project management software.
+            
+            <br><br>Let's connect and explore how we can collaborate on future projects or just share insights on technology and business innovation.
+            
+            
+        </p>
+    </section>
+    
+  
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+<!-- Adding the picture -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Image Example</title>
+</head>
+<body>
+
+    <img id="clickableImage" src="Dorsa.JPG" alt="A picture of Dorsa" style="width: 200px; cursor: pointer;" />
+
+    <script>
+        // Function to toggle the image size
+        function toggleImageSize() {
+            var image = document.getElementById('clickableImage');
+            
+            if (image.style.width === "200px") {
+                image.style.width = "400px"; // Enlarge the image
+            } else {
+                image.style.width = "200px"; // Shrink the image back to its original size
+            }
+        }
+
+
+        document.getElementById('clickableImage').addEventListener('click', toggleImageSize);
+    </script>
+
+</body>
+</html>
+
+<!-- Adding validator -->
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+
+
+
+
+
+
+
+
+

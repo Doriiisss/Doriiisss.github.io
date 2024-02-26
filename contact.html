@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css"> <!-- Link to your CSS for consistent styling -->
+    </head>
+    <body>
+ 
+
+
+
+<!-- Navigation/ Menu bar -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigation Menu with Hover Events</title>
+        <style>
+            /* Basic styling */
+            #navMenu {
+                background-color: #1a0d1a;
+                list-style-type: none;
+                margin: 0;  
+                padding: 0;
+                overflow: hidden;
+            }
+    
+            #navMenu li {
+                float: left;
+            }
+    
+            #navMenu li a {
+                display: block;
+                color: rgb(111, 122, 203);
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    
+            /* Hover styles */
+            #navMenu li a.hoverEffect {
+                background-color: #111;
+            }
+    
+            /* Submenu styling */
+            .submenu {
+                display: none;
+                position: absolute;
+                background-color: #3f193f;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(175, 130, 130, 0.2);
+                z-index: 1;
+            }
+    
+            .submenu a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+    
+            .submenu a:hover {
+                background-color: #b69696;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <ul id="navMenu">
+        <li><a href="file:///C:/Users/doris/OneDrive/Documents/GitHub/Doriiisss.github.io/index.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">Home</a></li>
+        <li><a href="about.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">About</a></li>
+        <li><a href="contact.html" target="_blank" onmouseover="hoverEffect(this)" onmouseout="hoverEffect(this)">Contact</a></li>
+        <li onmouseover="showSubmenu()" onmouseout="hideSubmenu()">Social Media
+
+
+            <div class="submenu" id="submenu">
+                <a href="https://www.instagram.com/dorsa_ayubi/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/dorsa-ayubi/" target="_blank">LinkedIn</a>
+            </div>
+            
+        </li>
+    </ul>
+    
+    <script>
+        // JavaScript functions for hover effect
+        function hoverEffect(link) {
+            link.classList.toggle('hoverEffect');
+        }
+    
+        // JavaScript functions to show/hide the submenu
+        function showSubmenu() {
+            document.getElementById('submenu').style.display = 'block';
+        }
+    
+        function hideSubmenu() {
+            document.getElementById('submenu').style.display = 'none';
+        }
+    </script>
+    
+    </body>
+    </html>
+    
+
+
+
+
+
+
+   <!-- Ask user name -->
+    <button id="namePromptButton">Enter Your Name</button>
+    <div id="nameDisplay"></div>
+
+    <script>
+        // Function to ask for the user's name and display it
+        function askAndDisplayName() {
+            const username = window.prompt("Hey there, what is your name?");
+            if(username) { // Check if a name was entered
+                document.getElementById('nameDisplay').textContent = `Hello, ${username}!`;
+            }
+        }
+
+        // Set up the event listener for the button
+        document.getElementById('namePromptButton').addEventListener('click', askAndDisplayName);
+    </script>
+
+
+
+</body>
+
+<!-- Contact me content -->
+
+</html>
+<section>
+    <h1>Contact Me</h1>
+    <p>If you have any questions or would like to get in touch, feel free to contact me through the following:</p>
+    
+    <!-- Contact Information -->
+    <p><strong>Name:</strong> Dorsa Ayubi</p>
+    <p><strong>Phone Number:</strong> 437-219-****</p>
+    <p><strong>Email Address:</strong> <a href="mailto:doriss1376@gmail.com">doriss1376@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dorsa-ayubi/" target="_blank">https://www.linkedin.com/in/dorsa-ayubi/</a></p>
+</section>
+
+
+
+
+
+
+
+</html>
+
+<!-- Adding validator -->
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+
+
+
+
+
+
+
+
+
+
