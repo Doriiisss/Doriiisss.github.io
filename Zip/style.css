@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #b6dcda; 
+    color: #00695c; 
+    margin: 15pt;
+}
+
+h1 {
+    font-size: 24pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #92197e; 
+    margin-bottom: 20pt;
+}
+
+h2 {
+    font-family: 'Gill Sans';
+    font-size: 20pt;
+    color: #1f3b77; 
+    margin-bottom: 18pt;
+}
+
+h3 {
+    font-family: Helvetica;
+    font-size: 16pt;
+    color: #53aca9; 
+    margin-bottom: 16pt;
+}
+
+p {
+    font-family:Geneva;
+    font-size: 15pt;
+    color: #08004d; 
+    margin: 12pt 0;
+}
+
+a:link, a:visited {
+    color: #490d58; 
+}
+
+a:hover {
+    color: #b6644d; 
+    text-decoration: underline; 
+}
+
+a:active {
+    color: #200089; 
+    text-decoration: underline;
+}
+
+
+.divTable {
+    display: table;
+    width: 100%; 
+}
+
+.divTableRow {
+    display: table-row;
+}
+
+.divTableHeading {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.divTableCell, .divTableHead {
+    display: table-cell;
+    padding: 10pt;
+    border: 1px solid #160f45; 
+}
+
+.divTableHeading {
+    background-color: #00796b; 
+    color: rgb(72, 9, 9); 
+}
+
+.divTableBody {
+    display: table-row-group;
+}
