@@ -21,24 +21,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
-
-cument.addEventListener('DOMContentLoaded', function() {
-    const form = document.getElementById('contactForm');
-    
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
-
-        const formData = {
-            name: form.name.value,
-            email: form.email.value,
-            age: form.age.value,
-            feedback: form.feedback.value,
-            interests: [...form.interests].filter(checkbox => checkbox.checked).map(checkbox => checkbox.value),
-            country: form.country.value
-        };
-
-        localStorage.setItem('formData', JSON.stringify(formData));
-        alert('Form data saved!');
-    });
-
-    form.addEventListener('reset', function()

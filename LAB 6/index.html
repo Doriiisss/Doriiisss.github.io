@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorsa Ayubi Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <ul id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="submenu-trigger">Social Media
+            <div class="submenu">
+                <a href="https://www.instagram.com/dorsa_ayubi/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/dorsa-ayubi/" target="_blank">LinkedIn</a>
+            </div>
+        </li>
+    </ul>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+    <section>
+        <h2>Academic Background</h2>
+        <dl>
+        <p><strong><dt>BComm in Business Technology Management, Co-op</strong></dt> <dd>Ted Rogers School of Management, Toronto Metropolitan University (Sep 2020 - Present)<br>
+        GPA: 4.20/4.33</p></dd>
+        
+        <p><strong><dt>B.S. in Industrial Engineering</strong></dt><dd> Kharazmi University, Tehran, Iran (Sep 2015 - Jan 2019)<br>
+        GPA: 3.67/4.00</p></dd>
+        
+        <p><strong><dt>Mathematics Diploma</strong></dt><dd> Arian High School, Toronto Metropolitan University (Sep 2011 - Sep 2015)<br>
+        GPA: 19.25/20</p></dd>
+        </section>
+        </dl>
+    </section>
+    
+    <section>
+        <h2>Notable Courses and Projects</h2>
+        
+        <p>I have engaged in various courses throughout my academic journey. You can see a short description of each of my programs and a list of the most useful courses in each:</p>
+    <blockquote>
+        <h3>Business Technology Management Courses</h3>
+        <p>Business Technology Management (BTM) is a program that combines business management with technology principles. It focuses on managing technology resources, overseeing tech projects, and aligning business strategies with technology solutions. Key areas include systems analysis, IT project management, and data management, aimed at bridging the gap between business needs and technological capabilities.</p>
+        <ol>
+            <li>Project Management</li>
+            <li>Managerial Decision Making</li>
+            <li>Critical Thinking</li>
+            <li>Statistics</li>
+            <li>Business Finance</li>
+            <li>Marketing</li>
+        </ol>
+        
+        <h3>Industrial Engineering Courses</h3>
+        <p>Industrial Engineering is a program focused on optimizing complex systems, processes, and organizations. It combines engineering principles with business and management concepts, emphasizing efficiency, productivity, and cost-effectiveness. The curriculum typically includes subjects like operations research, systems engineering, production management, and quality control, aiming to improve processes and systems in various industries.</p>
+        <ol>
+            <li>Feasibility Study</li>
+            <li>Project Management</li>
+            <li>Economics</li>
+            <li>Quality Control</li>
+            <li>Inventory Management</li>
+            <li>Probability</li>
+        </ol>
+    </blockquote>
+    </section>
+    
+
+    <section>
+        <h2>Educational Awards and Achievements</h2>
+        <ul>
+            <li>Dean's List (2020 - Present): Recognized for academic excellence in the Business Technology Management program at Ted Rogers School of Management, Toronto Metropolitan University.</li>
+            <li>MS Project Award- MSP challenge (2016)</li>
+        </ul>
+        </section>
+    
+    <section>
+        <h2>Extracurricular Activities</h2>
+
+        <div class="divTable">
+            <div class="divTableBody">
+                <div class="divTableRow">
+                    <div class="divTableCell"><a href="https://tirgan2023.tirgan.ca/" target="_blank">Tirgan Festival Website</a></div>
+                    <div class="divTableCell">Production Zone Manager at Tirgan Festival (July 2023, Jan 2024)</div>
+                </div>
+                <div class="divTableRow">
+                    <div class="divTableCell"><a href="https://khu.ac.ir/en" target="_blank">Kharazmi University Website</a></div>
+                    <div class="divTableCell">Head of Students Science Forums at Kharazmi University (2016 - 2018)</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <p>For more details about my professional experiences, please visit my
+             <a href="https://www.linkedin.com/in/dorsa-ayubi/">LinkedIn </a>
+<a> | </a>
+             <a href="https://www.instagram.com/dorsa_ayubi/">Instagram</a>
+             </p>
+    </section>
+
+
+    <!-- Adding the picture -->
+
+    <img id="clickableImage" src="Dorsa.JPG" alt="A picture of Dorsa" style="width: 200px; cursor: pointer;" />
+
+    <script>
+        // Function to toggle the image size
+        function toggleImageSize() {
+            var image = document.getElementById('clickableImage');
+            
+            if (image.style.width === "200px") {
+                image.style.width = "400px"; // Enlarge the image
+            } else {
+                image.style.width = "200px"; // Shrink the image back to its original size
+            }
+        }
+
+
+        document.getElementById('clickableImage').addEventListener('click', toggleImageSize);
+    </script>
+
+<!--Adding form-->
+<form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label>Age Range:</label>
+    <input type="radio" id="under18" name="age" value="under18">
+    <label for="under18">Under 18</label>
+    <input type="radio" id="18to64" name="age" value="18to64">
+    <label for="18to64">18 to 64</label>
+    <input type="radio" id="65over" name="age" value="65over">
+    <label for="65over">65 and over</label>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback"></textarea>
+
+    <label>Interests:</label>
+    <input type="checkbox" id="tech" name="interests" value="Technology">
+    <label for="tech">Technology</label>
+    <input type="checkbox" id="marketing" name="interests" value="Marketing">
+    <label for="Marketing">Marketing</label>
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="">Please choose</option>
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+    </select>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button>
+</form>
+
+<script src="form.js"></script>
+    <footer>
+
+        <!-- Adding validator -->
+
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</p>
+    </footer>
+</body>
+</html>
