@@ -1,34 +1,34 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    background-color: #e0c1b3; 
+    background-color: #dbc8c0; 
     color: #8e5661; 
     margin: 15pt;
 }
 
 h1 {
-    font-size: 30pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35pt;
+    font-family: 'Fredoka One', cursive;
     color: #6d6875; 
     margin-bottom: 20pt;
 }
 
 h2 {
-    font-family: 'Gill Sans';
+    font-family: 'Roboto';
     font-size: 20pt;
     color: #3d405b; 
     margin-bottom: 18pt;
 }
 
 h3 {
-    font-family: Helvetica;
+    font-family: Roboto ;
     font-size: 16pt;
     color: #b5838d; 
     margin-bottom: 16pt;
 }
 
 p {
-    font-family:Geneva;
+    font-family:Roboto ;
     font-size: 15pt;
     color: #08004d; 
     margin: 12pt 0;
