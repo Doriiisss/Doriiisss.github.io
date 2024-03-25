@@ -209,3 +209,18 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #82c0cc; /* Lighter shade for hover effect */
 }
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000; /* Choose a highly visible background color */
+    color: #fff; /* Contrast the text color for visibility */
+    padding: 8px;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 0;
+}

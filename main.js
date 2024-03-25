@@ -21,3 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+//font size changer
+function changeFontSize(change) {
+    document.body.style.fontSize = (parseInt(window.getComputedStyle(document.body).fontSize) + change) + 'px';
+}
